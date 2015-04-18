@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "self:FantasyNames.xcodeproj">
+   </FileRef>
+   <Group
+      location = "container:"
+      name = "Pictures">
+      <FileRef
+         location = "group:troy4.jpg">
+      </FileRef>
+   </Group>
+</Workspace>
