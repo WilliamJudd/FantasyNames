@@ -68,6 +68,12 @@ class TableViewController: UITableViewController {
         return cell
     }
     
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        players[indexPath.row]
+        let viewController = self.storyboard?.instantiateViewControllerWithIdentifier("") as! ViewController
+        viewController.storyboard
+    }
+    
 
     /*
     // Override to support conditional editing of the table view.
@@ -104,7 +110,7 @@ class TableViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -112,6 +118,6 @@ class TableViewController: UITableViewController {
         // Get the new view controller using [segue destinationViewController].
         // Pass the selected object to the new view controller.
     }
-    */
+
 
 }
